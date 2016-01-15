@@ -12,92 +12,46 @@ $(document).ready(function() {
     console.log(food);
     console.log(activity);
 
-    if (age < 21 && drink === 'pina' && geo === 'nature' && food === 'kabob' && party === 'bunji'){
+    if (age <= 21 && drink === 'pina' && geo === 'nature' && food === 'kabob' && activity === 'bunji'){
       $("#result1").show();
+      $("#result2").show();
+      $("#result10").show();
     }
 
-    else if (age >= 21 && drink === 'pina' && geo === 'nature' && food === 'kabob' && party === 'bunji'){
-        $("#result2").show();
-    }
-
-    else if (age >= 21 && drink === 'beer' && geo === 'nature' && food === 'kabob' && party === 'bunji'){
-        $("#result2").show();
-    }
-
-    else if (age < 21 && drink === 'beer' && geo === 'nature' && food === 'kabob' && party === 'bunji'){
-        $("#result2").show();
-    }
-
-    else if (age >= 21 && drink === 'beer' && geo === 'urban' && food === 'kabob' && party === 'bunji'){
-        $("#result4").show();
-    }
-
-    else if (age < 21 && drink === 'beer' && geo === 'urban' && food === 'kabob' && party === 'bunji'){
-        $("#result2").show();
-    }
-
-    else if (age < 21 && drink === 'beer' && geo === 'nature' && food === 'salad' && party === 'bunji'){
-        $("#result2").show();
-    }
-
-    else if (age >= 21 && drink === 'beer' && geo === 'nature' && food === 'salad' && party === 'bunji'){
-        $("#result2").show();
-    }
-
-    else if (age < 21 && drink === 'beer' && geo === 'nature' && food === 'kabob' && party === 'sky'){
-        $("#result4").show();
-    }
-
-    else if (age >= 21 && drink === 'beer' && geo === 'nature' && food === 'kabob' && party === 'sky'){
-        $("#result4").show();
-    }
-
-    else if (age < 21 && drink === 'pina' && geo === 'nature' && food === 'kabob' && party === 'bunji'){
-        $("#result4").show();
-    }
-
-    else if (age >= 21 && drink === 'pina' && geo === 'nature' && food === 'kabob' && party === 'bunji'){
-        $("#result4").show();
-    }
-
-    else if (age < 21 && drink === 'pina' && geo === 'nature' && food === 'kabob' && party === 'bunji'){
-        $("#result4").show();
-    }
-
-    else if (age >= 21 && drink === 'pina' && geo === 'urban' && food === 'kabob' && party === 'bunji'){
-        $("#result4").show();
-    }
-
-    else if (age < 21 && drink === 'pina' && geo === 'urban' && food === 'kabob' && party === 'bunji'){
-        $("#result4").show();
-    }
-
-    else if (age >= 21 && drink === 'pina' && geo === 'nature' && food === 'salad' && party === 'bunji'){
-        $("#result4").show();
-    }
-
-    else if (age < 21 && drink === 'pina' && geo === 'nature' && food === 'salad' && party === 'bunji'){
+    else if (age >= 21 && drink === 'pina' && geo === 'nature' && food === 'kabob' && activity === 'bunji'){
         $("#result1").show();
+        $("#result2").show();
+        $("#result3").show();
     }
 
-    else if (age >= 21 && drink === 'pina' && geo === 'nature' && food === 'kabob' && party === 'sky'){
-        $("#result1").show();
+    else if (age >= 21 && drink === 'beer' && geo === 'nature' && food === 'kabob' && activity === 'bunji'){
+        $("#result2").show();
+        $("#result7").show();
+        $("#result8").show();
     }
 
-    else if (age < 21 && drink === 'pina' && geo === 'nature' && food === 'kabob' && party === 'bunji'){
-        $("#result1").show();
+    else if (age <= 21 && drink === 'beer' && geo === 'nature' && food === 'kabob' && activity === 'bunji'){
+        $("#result3").show();
+        $("#result5").show();
+        $("#result6").show();
     }
 
-    else if (age >= 21 && drink === 'pina' && geo === 'nature' && food === 'kabob' && party === 'bunji'){
-        $("#result1").show();
+    else if (age >= 21 && drink === 'beer' && geo === 'urban' && food === 'kabob' && activity === 'bunji'){
+        $("#result4").show();
+        $("#result7").show();
+        $("#result8").show();
     }
 
-    else if (age < 21 && drink === 'pina' && geo === 'nature' && food === 'kabob' && party === 'bunji'){
-        $("#result1").show();
+    else if (age <= 21 && drink === 'beer' && geo === 'urban' && food === 'salad' && activity === 'bunji'){
+        $("#result2").show();
+        $("#result3").show();
+        $("#result4").show();
     }
 
     else {
-      $("#result3").show();
+      $("#result7").show();
+      $("#result9").show();
+      $("#result10").show();
     }
 
     event.preventDefault();

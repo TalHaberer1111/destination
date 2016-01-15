@@ -3,11 +3,31 @@
 }
 #result2 {
     display: none;
+
 }
 #result3 {
     display: none;
+
 }
 #result4 {
+    display: none;
+}
+#result5 {
+    display: none;
+}
+#result6 {
+    display: none;
+}
+#result7 {
+    display: none;
+}
+#result8 {
+    display: none;
+}
+#result9 {
+    display: none;
+}
+#result10{
     display: none;
 }
 h1 {
@@ -17,6 +37,7 @@ h1 {
 img{
   height: 20em;
   width:  20em;
+  margin-top: 20px;
 }
 
 body {
@@ -42,4 +63,8 @@ body {
 
 p {
   margin-bottom: 20px;
+  font-size: 20px;
+}
+.container {
+  text-align: center;
 }
