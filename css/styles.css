@@ -47,6 +47,7 @@ body {
 }
 .btn {
   background-color: orange;
+  margin-bottom: 30px;
 }
 
 .jumbotron {

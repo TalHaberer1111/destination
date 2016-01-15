@@ -49,6 +49,7 @@ $(document).ready(function() {
     }
 
     else {
+      alert("And your results are....");
       $("#result7").show();
       $("#result9").show();
       $("#result10").show();
