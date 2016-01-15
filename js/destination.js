@@ -42,14 +42,14 @@ $(document).ready(function() {
         $("#result8").show();
     }
 
-    else if (age <= 21 && drink === 'beer' && geo === 'urban' && food === 'salad' && activity === 'bunji'){
+    else if (age <= 21 && drink === 'beer' && geo === 'urban' && food === 'salad' && activity === 'sky'){
         $("#result2").show();
         $("#result3").show();
         $("#result4").show();
     }
 
     else {
-      alert("And your results are....");
+      alert("AND YOUR RESULTS ARE.... : )");
       $("#result7").show();
       $("#result9").show();
       $("#result10").show();
