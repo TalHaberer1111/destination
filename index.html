@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/destination.js"></script>
+    <title>Personality Matching</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+      <h1><span style="color:black">DesTi</span>nation UnK<span style="color:orange">nown</span></h1>
+      <p><a class="btn btn-primary btn-lg" href="index.html" role="button">Restart Questionnaire</a></p>
+    </div>
+
+      <p>Answer the following questions to find out which destination is best suited for you: </p>
+      <div class="you">
+
+      <form id="questions">
+        <p><label for="age">Age</label>
+        <input id="age" type="text"></p>
+        <p><label for="drink">Pina Colada or Beer</label>
+        <select id="drink">
+          <option value="pina">Pina Colada</option>
+          <option value="virgin">Beer</option>
+        </select></p>
+        <p><label for="geo">Nature or Urban</label>
+        <select id="geo">
+          <option value="nature">Nature</option>
+          <option value="urban">Urban</option>
+        </select></p>
+        <p><label for="food">Salad or Kabob</label>
+        <select id="food">
+          <option value="salad">Salad</option>
+          <option value="kabob">Kabob </option>
+        </select></p>
+        <p><label for="activity">Bunji Jumping or Sky Diving</label>
+        <select id="activity">
+          <option value="bunji">Bunji Jumping</option>
+          <option value="sky">Sky Diving</option>
+        </select></p>
+
+
+        <button type="submit" class="btn"><strong>CLICK HERE:</strong> to find out where you should go :)
+        </button>
+      </form>
+    </div>
+
+      <div id="result1">
+        <p>Micky Mouse <img src="" alt="picture"> </p>
+      </div>
+      <div id="result2">
+        <p>Roadrunner <img src="" alt="picture"> Hurry up Man!</p>
+      </div>
+      <div id="result3">
+        <p>Cartman <img src="" alt="picture"> Respect my authority!</p>
+
+      </div>
+      <div id="result4">
+        <p>Marge Simpson <img src="" alt="picture"> Hmmm...Homie!</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+#result1 {
+    display: none;
+}
+#result2 {
+    display: none;
+}
+#result3 {
+    display: none;
+}
+#result4 {
+    display: none;
+}
+h1 {
+  color: orange;
+}
+
+img{
+  height: 20em;
+  width:  20em;
+}
+
+body {
+  text-align: center;
+  background-image: url(http://pre10.deviantart.net/360f/th/pre/i/2011/237/8/9/water_background_by_kristinnluvsbtr-d47tru3.jpg);
+  background-size: cover;
+}
+.btn {
+  background-color: orange;
+}
+
+.jumbotron {
+  background-image: url(http://milleniumtravel.ca/wp-content/uploads/2011/07/Sarita-travels-collage.png);
+  background-size: contain;
+  color: #bfff00;
+}
+
+.you{
+  font-size: 20px;
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 20px;
+}
